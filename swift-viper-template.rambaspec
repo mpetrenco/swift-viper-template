@@ -36,13 +36,13 @@ test_files:
 - {name: BuilderTests.swift, path: Tests/builder_tests.swift.liquid}
 
 # View tests
-- {name: View/ViewTests.swift, path: Tests/view_tests.swift.liquid}
+- {name: ViewTests.swift, path: Tests/view_tests.swift.liquid}
 
 # Interactor tests
-- {name: Interactor/InteractorTests.swift, path: Tests/interactor_tests.swift.liquid}
+- {name: InteractorTests.swift, path: Tests/interactor_tests.swift.liquid}
 
 # Presenter tests
-- {name: Presenter/PresenterTests.swift, path: Tests/presenter_tests.swift.liquid}
+- {name: PresenterTests.swift, path: Tests/presenter_tests.swift.liquid}
 
 # Router tests
-- {name: Router/RouterTests.swift, path: Tests/router_tests.swift.liquid}
+- {name: RouterTests.swift, path: Tests/router_tests.swift.liquid}
