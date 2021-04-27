@@ -26,8 +26,8 @@ code_files:
 - {name: Router/RouterImp.swift, path: Code/Router/router_imp.swift.liquid}
 
 # Builder
-- {name: Core/Builder/Builder.swift, path: Code/Builder/builder.swift.liquid}
-- {name: Core/Builder/BuilderImp.swift, path: Code/Builder/builder_imp.swift.liquid}
+- {name: Builder/Builder.swift, path: Code/Builder/builder.swift.liquid}
+- {name: Builder/BuilderImp.swift, path: Code/Builder/builder_imp.swift.liquid}
 
 # The declarations for test files
 test_files:
