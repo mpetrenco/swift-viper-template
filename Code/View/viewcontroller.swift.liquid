@@ -8,10 +8,6 @@
 
 import UIKit
 
-class {{ module_info.name }}ViewModel {
-  var title: String?
-}
-
 protocol {{ module_info.name }}View: class {
   func prepare(with viewModel: {{ module_info.name }}ViewModel)
 }
@@ -28,5 +24,5 @@ class {{ module_info.name }}ViewController: UIViewController, {{ module_info.nam
   func prepare(with viewModel: {{ module_info.name }}ViewModel) {
     self.title = viewModel.title
   }
-  
+
 }

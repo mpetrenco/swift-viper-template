@@ -1,5 +1,5 @@
 # Template information section
-name: "swift-viper-template"
+name: "swift-viper"
 summary: "A Swift VIPER module template with UIViewController playing as a View."
 author: "Endava"
 version: "1.0"
@@ -13,8 +13,9 @@ code_files:
 - {name: View/ViewController.xib, path: Code/View/viewcontroller.xib.liquid}
 
 # Presenter layer
+- {name: Presenter/ViewModels/ViewModel.swift, path: Code/Presenter/ViewModels/viewmodel.swift.liquid}
 - {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
-- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter_imp.swift.liquid}
+- {name: Presenter/PresenterImp.swift, path: Code/Presenter/presenter_imp.swift.liquid}
 
 # Interactor layer
 - {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
@@ -22,9 +23,11 @@ code_files:
 
 # Router layer
 - {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
+- {name: Router/RouterImp.swift, path: Code/Router/router_imp.swift.liquid}
 
 # Builder
-- {name: Core/Builder.swift, path: Code/builder.swift.liquid}
+- {name: Core/Builder/Builder.swift, path: Code/Builder/builder.swift.liquid}
+- {name: Core/Builder/BuilderImp.swift, path: Code/Builder/builder_imp.swift.liquid}
 
 # The declarations for test files
 test_files:
